@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="CV-CSS.css">
+</head>
+<body>
+    
+    <header>
+      <h1>CAMILA DUARTE</h1>
+      <h2>INGENIERA INFORMÁTICA</h2>
+    </header>
+    
+    <section>
+      <nav>
+        <div id="user_photo" class="user_photo">
+            <img src="https://randomuser.me/api/portraits/women/31.jpg">
+        </div>
+        <div class="perfil">
+            <h3>Perfil</h3>
+            <p>Soy una persona creativa, con imaginación e iiniciativa para desarrollar ideas nuevas o trabajar sobre ideas existentes.</p>
+            <p>Tengo gran capacidad de trabajo, integración, flexibilidad y dinamismo.</p>
+            <p>Busco desarrollarme profesionalmente dentro de un equipo de trabajo o de manera individual, dando lo mejor de mi.</p>
+        </div>
+        <div class="referencias">
+            <h3>Referencias</h3>
+                <ul>
+                    <li><a href="https://www.ticmas.com/">Ticmas</a></li>
+                    <p>Contacto: Isabel Mercado, Celular: 15-12345678</p>
+                    <li><a href="https://www.mercadolibre.com.ar/">Mercado Libre</a></li>
+                    <p>Contacto:  Andrés Rodriguez, Celular: 15-13254567</p>
+                    <li><a href="https://www.imdb.com/">IMDB</a></li>
+                    <p>Contacto: Vanesa Estévez, Celular: 15-15674569</p>
+                </ul>
+        </div>
+        <div class="info">
+            <h3>Info</h3>
+            <p>Edad: 35 años </p>
+            <p>Celular: 15-1234-5678</p>
+            <p>Calle cualquiera 123, Cualquier Lugar, CP: 1234</p>
+            <li><a href="mailto:hola@sitioincreible.com">hola@sitioincreible.com</a></li>
+        </div>
+      </nav>
+      
+      <article>
+        <div class= "estudios_formales">
+            <h3>ESTUDIOS FORMALES</h3>
+            <h4>Centro de Estudios de Postgrado HGFZ</h4>
+            <p>Maestría en Gestion | Enero 2015 a diciembre 2022</p>
+            <li>Estudios de planificación, coordinación y ética.</li>
+            <li>Trabajé para varias startups en el lanzamiento de aplicaciones de servicios nuevos</li>
+            <h4>Universidad de Juárez</h4>
+            <p>Licenciatura en Diseño | Diciembre 2018 a diciembre 2022</p>
+            <li>Promedio: 9.0</li>
+            <li>Estudios complementarios de Administración</li>
+            <li>Mi tesis se centró en el estudio de varias empressas y la optimización de su proceso</li>
+        </div>
+
+        <div class= "experiecia_laboral">
+            <h3>Experiencia laboral</h3>
+            <h4>Gerente de proyecto</h4>
+            <p>Tecnologia HJK | Octubre 2017 a la fecha</p>
+            <li>Encargada de la coordinación , planificación y puesta en marcha de productos en multioles equipos.</li>
+            <li>Creadora de documentos funcionales y de aplicaión.</li>
+            <h4>Diseñadora UXx senior</h4>
+            <p>Tecnologia Milenio | Enero 2014 a septiembre 2017</p>
+            <li>Gestión de proyectos complejos de principio a fin.</li>
+            <li>Colaboración con otros diseñadores.</li>
+            <li>Convertí los requisitos en diseño de alto nivel.</li>
+        </div>
+
+        <div class= "cursos">
+            <h3>Cursos</h3>
+            <h4>Diseño de Experiencia de Usuario(UX,UI)</h4>
+            <p>Tecnicatura | Enero 2020 a diciembre 2022</p>
+            <li>Diseño de interfaz de usuario es el resultado de definir la forma, función, imagen de marca y que afectan la apariencia externa de las interfaces de usuarios en sistemas de todo tipo.</li>
+        </div>
+
+        <div class= "idiomas">
+            <h3>Idiomas</h3>
+            <li>Inglés</li>
+            <p>First Certificate | Marzo 2018 a adiciembre 2020</p>
+            <li>Portugués</li>
+            <p>Curso oficial | Abril 2020 a diciembre 2022</p>
+        </div>
+        <div>
+            <form action="" class="formulario" id="formulario">
+
+			<!-- Grupo: Nombre -->
+			    <div class="formulario__grupo" id="grupo__nombre">
+				    <label for="nombre" class="formulario__label">Nombre</label>
+				    <div class="formulario__grupo-input">
+					    <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Maria">
+				    </div>
+				    <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+		        </div>
+
+            <!-- Grupo: Apellido -->
+			    <div class="formulario__grupo" id="grupo__apellido">
+				    <label for="apellido" class="formulario__label">apellido</label>
+				    <div class="formulario__grupo-input">
+					    <input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="Correa">
+				    </div>
+				    <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+		        </div>
+
+			<!-- Grupo: Correo Electronico -->
+			<div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label">Correo Electrónico</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+				</div>
+				<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+			</div>
+
+			<!-- Grupo: Teléfono -->
+			<div class="formulario__grupo" id="grupo__telefono">
+				<label for="telefono" class="formulario__label">Teléfono</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+				</div>
+				<p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+			</div>
+
+            <!-- Grupo: Apellido -->
+			<div class="formulario__grupo" id="grupo__mensajes">
+				<label for="mensajes" class="formulario__label">Deja tu mensaje</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="mensajes" id="mensajes" placeholder="">
+				</div>
+				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+		    </div>
+
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+            </form>
+        </div>
+        </article>
+    </section>
+    
+    <footer>
+        <p>Proyecto Front-end Argentina 4.0: Curriculum Vitae</p>
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>
